@@ -1,42 +1,71 @@
-body {
-  color: $base-font-color;
-  font-family: $base-font-family;
-  font-size: $base-font-size;
-  line-height: $base-line-height;
+h1 {
+  padding-bottom: 1.2em;
+  margin: 0;
+  font-size: 2.65em;
+  font-weight: 400;
+  line-height: 1.25;
+  color: rgba(0, 0, 0, 0.85);
+}
+p {
+  color: rgba(0, 0, 0, 0.85);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: $heading-font-family;
-  font-size: modular-scale(1);
-  line-height: $heading-line-height;
-  margin: 0 0 $small-spacing;
+blockquote {
+  margin: 0.6em auto;
+  padding: 0;
+}
+ul li {
+  padding: 0 1em 0.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+ul li h1 {
+  padding: 0;
+}
+::selection {
+  color: #fff;
+  background-color: #0000ff;
 }
 
 p {
-  margin: 0 0 $small-spacing;
+  margin: 0;
 }
 
 a {
-  color: $action-color;
+  color: rgba(0, 0, 0, 0.85);
   text-decoration: none;
-  transition: all $base-duration $base-timing;
 
-  &:active,
-  &:focus,
-  &:hover {
-    color: shade($action-color, 25%);
+  &:hover, &:visited, &:active {
+    color: rgba(0, 0, 0, 0.85);
+    text-decoration: none;
   }
 }
 
-hr {
-  border-bottom: $base-border;
-  border-left: 0;
-  border-right: 0;
-  border-top: 0;
-  margin: $base-spacing 0;
+a {
+  &[href^="http://"]:not([href*="danieleckler.com"]), &[href^="https://"]:not([href*="danieleckler.com"]) {
+    cursor: url("../icons/pointright.png") 50 10, auto !important;
+  }
+
+  &[href*="danieleckler.com"], &[href*='mailto:'] {
+    cursor: url("../icons/point.png"), auto;
+  }
+
+  &[href*="danieleckler.com"]:active, &[href*='mailto:']:active {
+    cursor: url("../icons/grab.png"), auto;
+  }
 }
+
+u {
+  text-decoration: none;
+  border-bottom: 0.07em solid;
+}
+
+h1 {
+    padding-left: 0;
+    padding-right: 0;
+    font-family: 'Fort';
+    margin-left: 30px;
+    padding-bottom: 0;
+    border-bottom: 0.07em solid black;
+    cursor: url("../icons/point.png"), auto;
+  }

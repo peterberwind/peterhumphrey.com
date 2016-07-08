@@ -1,0 +1,23 @@
+#scrollTop {
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+  margin-right: 10%;
+  margin-top: 50px;
+  position: relative;
+  cursor: url("../icons/point.png"), auto; }
+  #scrollTop:active {
+    cursor: url("../icons/grab.png"), auto; }
+  #scrollTop #scroll-info {
+    position: absolute;
+    font-size: 2rem;
+    top: 55%;
+    width: 300px;
+    text-align: center;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%); }
+
+#scroll-icon {
+  width: 64px;
+  display: inline-block; }

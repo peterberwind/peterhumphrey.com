@@ -1,0 +1,16 @@
+#works {
+  text-align: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: IntroFadeIn;
+  animation-name: IntroFadeIn;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1; }
+
+#works a {
+  cursor: url("../icons/point.png"), auto; }
+  #works a:active {
+    cursor: url("../icons/grab.png"), auto; }

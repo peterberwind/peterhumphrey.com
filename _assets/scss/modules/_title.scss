@@ -1,0 +1,21 @@
+#title-svg svg {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  -webkit-animation-name: rotateAndLeave;
+  animation-name: rotateAndLeave;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-transform: translate(200%, -200%);
+  transform: translate(200%, -200%);
+  width: 30vmax;
+}
+
+#title {
+  display: inline;
+  z-index: 3;
+  -webkit-animation: titleFadeUp 2s 1;
+  animation: titleFadeUp 2s 1;
+}

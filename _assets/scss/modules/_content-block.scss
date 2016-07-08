@@ -1,0 +1,110 @@
+#index-text {
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  overflow: hidden; }
+
+#images-wrap {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  padding: 0 1em;
+  padding-top: 0; }
+
+.images-wrap.right-half:nth-of-type(2n+5) {
+  margin-left: 0;
+  margin-bottom: auto; }
+
+.images-wrap.right-half {
+  margin-right: 0;
+  margin-bottom: 0em; }
+
+.images-wrap.left-half {
+  margin: auto 0; }
+
+.images-wrap {
+  max-width: 1300px;
+  position: relative;
+  display: inline-block;
+  margin: 0.6em auto; }
+
+.full-img .image-holder .marquee-text {
+  font-size: 7em; }
+
+.full-img {
+  width: 100%; }
+
+.marquee2 {
+  display: none; }
+
+.half .image-holder {
+  overflow-x: hidden; }
+
+.half .image-holder img {
+  max-height: 520px; }
+
+.image-holder {
+  position: relative;
+  height: auto;
+  width: auto;
+  margin-bottom: -15px; }
+  .image-holder img:first-of-type {
+    position: relative; }
+  .image-holder img {
+    position: absolute;
+    max-width: 100%;
+    top: 0;
+    left: 0; }
+
+.marquee-text {
+  font-size: 4em;
+  z-index: 100;
+  color: black;
+  white-space: nowrap;
+  position: absolute;
+  top: 50%;
+  left: 110%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  mix-blend-mode: difference;
+  color: #FFFF00; }
+
+.caption, blockquote {
+  font-size: 1.4rem;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  line-height: 1.25;
+  font-weight: 200;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  font-family: ' Freight'; }
+
+#index-text.indexText blockquote {
+  font-size: 1.4rem;
+  display: inline-block;
+  min-height: 55px;
+  text-align: center;
+  vertical-align: top;
+  padding-top: 0px;
+  margin-top: 1em;
+  margin-bottom: 0.6em;
+  width: 100%; }
+  #index-text.indexText blockquote p {
+    margin-top: 0;
+    margin: 0;
+    display: inline-block;
+    max-width: 1300px; }
+
+.caption {
+  max-width: 1300px;
+  margin: 0 auto;
+  margin-top: 1.4em; }

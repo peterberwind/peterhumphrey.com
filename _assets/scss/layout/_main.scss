@@ -1,0 +1,61 @@
+#main {
+  h1, blockquote {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+#main blockquote {
+  margin: 20px auto;
+  margin-bottom: 1em;
+  margin-top: 0.4em;
+  max-width: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#main {
+  h1 {
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+
+    &:first-of-type {
+      padding-top: 0;
+    }
+  }
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#main .back {
+  display: inline-block;}
+
+#index {
+  padding: 30px;
+  padding-bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#index {
+  padding-bottom: 30px;
+}
+
+
+#index-text a {
+  border-bottom: 0.07em solid black;
+
+  &:hover {
+    color: rgba(0, 0, 0, 0.5);
+    border-bottom: 0.07em solid rgba(0, 0, 0, 0.5);
+  }
+}
+
+#index p {
+  margin: 0.6em auto;
+}
+
+.index-work {
+  margin: 2em auto;
+}
