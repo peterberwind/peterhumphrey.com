@@ -1,68 +1,63 @@
 .case-study {
   font-family: 'Fort';
   font-weight: normal;
-}
-
-.case-study a {
-  border-bottom: 0.07em solid black;
-  cursor: url("../icons/point.png"), auto; }
-
-.case-study a:active {
-  cursor: url("../icons/grab.png"), auto; }
-
-.case-study a:hover {
-  color: rgba(0, 0, 0, 0.5);
-  border-bottom: 0.07em solid rgba(0, 0, 0, 0.5); }
-
-.case-study blockquote a {
-  border-bottom: 1px solid black; }
-
-.case-study p {
-  width: 100%;
-  max-width: 100%;
-  position: relative; }
-  .case-study p img {
-    -webkit-flex-grow: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    height: 100%;
-    padding: 1em 0;
-    padding-top: 1em;
-    -webkit-flex-basis: 50%;
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
-    padding-bottom: 0.6em;
+  a {
+    border-bottom: 0.07em solid black;
+    cursor: url("../icons/point.png"), auto;
+    &:active {
+      cursor: url("../icons/grab.png"), auto;
+    }
+    &:hover {
+      color: rgba(0, 0, 0, 0.5);
+      border-bottom: 0.07em solid rgba(0, 0, 0, 0.5);
+    }
+  }
+  blockquote a {
+    border-bottom: 1px solid black;
+  }
+  p {
     width: 100%;
-    display: inline-block;
-    margin: 0 auto; }
-
-.case-study p img:first-child:nth-last-child(2),
-.case-study p img:first-child:nth-last-child(2) ~ img {
-  width: 50%;
-  text-align: center;
-  margin: 0 auto; }
-
-.case-study p img:first-child:nth-last-child(4),
-.case-study p img:first-child:nth-last-child(4) ~ img {
-  width: 50%;
-  text-align: center;
-  margin: 0 auto; }
-
-.case-study p img:first-child:nth-last-child(2) {
-  float: left; }
-
-  .case-study h2 {
-  margin: 1em auto;
-  margin-bottom: 2em;
-  line-height: 1.3;
-  max-width: 100%;
-  padding: 0 30px;
-  width: 100%;
-  box-sizing: border-box;
-  font-weight: 200;
-  font-family: 'Freight';
+    max-width: 100%;
+    position: relative;
+    img {
+      flex-grow: 1;
+      height: 100%;
+      padding: 1em 0;
+      padding-top: 1em;
+      flex-basis: 50%;
+      padding-bottom: 0.6em;
+      width: 100%;
+      display: inline-block;
+      margin: 0 auto;
+      &:first-child {
+        &:nth-last-child(2), &:nth-last-child(4) {
+          width: 50%;
+          text-align: center;
+          margin: 0 auto;
+          ~ img {
+            width: 50%;
+            text-align: center;
+            margin: 0 auto;
+          }
+        }
+        &:nth-last-child(2) {
+          float: left;
+        }
+      }
+    }
+  }
+  h2 {
+    margin: 1em auto;
+    margin-bottom: 2em;
+    line-height: 1.3;
+    max-width: 100%;
+    padding: 0 30px;
+    width: 100%;
+    box-sizing: border-box;
+    font-weight: 200;
+    font-family: 'Freight';
+  }
 }
-
 
 .logo {
   fill: #fff;

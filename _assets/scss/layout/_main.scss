@@ -1,3 +1,15 @@
+.each {
+  display: inline-block;
+  text-align: left;
+  width: auto;
+  font-size: 2.65em;
+  line-height: 1.25;
+  font-family: 'Fort';
+  font-weight: normal;
+  overflow: hidden;
+  color: rgba(0, 0, 0, 0.85);
+}
+
 #main {
   h1, blockquote {
     padding-left: 30px;
@@ -43,7 +55,7 @@
 }
 
 
-#index-text a {
+#index-section a {
   border-bottom: 0.07em solid black;
 
   &:hover {

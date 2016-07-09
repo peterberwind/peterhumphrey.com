@@ -5,6 +5,23 @@
   top: 0;
 }
 
+.marquee2 {
+  display: none;
+}
+
+.marquee-text {
+  font-size: 4em;
+  z-index: 100;
+  color: black;
+  white-space: nowrap;
+  position: absolute;
+  top: 50%;
+  left: 110%;
+  transform: translateY(-50%);
+  mix-blend-mode: difference;
+  color: #FFFF00;
+}
+
 #marquee-container {
   position: fixed;
   top: 0;

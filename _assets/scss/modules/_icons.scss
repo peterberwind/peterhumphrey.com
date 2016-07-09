@@ -3,7 +3,6 @@
   height: 38px;
   margin-left: 5px;
   margin-right: 5px;
-
   /*transform: translateY(9px);*/
   background-size: contain;
   background-position: center center;
@@ -16,9 +15,7 @@
 }
 
 #icon2 {
-  -webkit-animation: iconsloop 1.5s infinite step-end;
   animation: iconsloop 1.5s infinite step-end;
-  -webkit-animation-play-state: paused;
   animation-play-state: paused;
 }
 
@@ -27,6 +24,5 @@
 }
 
 #strat:hover #icon2 {
-  -webkit-animation-play-state: running;
   animation-play-state: running;
 }

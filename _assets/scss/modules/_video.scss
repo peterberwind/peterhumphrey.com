@@ -1,5 +1,6 @@
 video::-webkit-media-controls {
-  display: none !important; }
+  display: none !important;
+}
 
 .iframe-overlay {
   height: 100%;
@@ -8,10 +9,12 @@ video::-webkit-media-controls {
   left: 0;
   position: absolute;
   z-index: 3;
-  background-size: cover; }
+  background-size: cover;
+}
 
 .video-overlay {
-  display: none; }
+  display: none;
+}
 
 #video-iframe {
   position: relative;
@@ -19,34 +22,39 @@ video::-webkit-media-controls {
   margin: 1em auto;
   margin-top: 1em;
   margin-bottom: 2.6em;
-  height: 0; }
-  #video-iframe iframe {
+  height: 0;
+  iframe {
     cursor: url("../icons/point.png"), auto !important;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%; }
-    #video-iframe iframe:active {
-      cursor: url("../icons/grab.png"), auto !important; }
+    height: 100%;
+    &:active {
+      cursor: url("../icons/grab.png"), auto !important;
+    }
+  }
+}
 
 .video {
   width: 60vw;
-  height: auto; }
-
-.video-wrap.padding-fam {
-  padding: 0 !important; }
+  height: auto;
+}
 
 .video-wrap {
+  &.padding-fam {
+    padding: 0 !important;
+  }
   background-color: #F3F2F2;
   margin: 1em auto;
   position: relative;
   padding: 13vw 20vw;
-  display: inline-block; }
-
-.video-wrap.no .video {
-  width: 100%; }
-
-.video-wrap.no {
-  padding: 0;
-  background-color: transparent; }
+  display: inline-block;
+  &.no {
+    .video {
+      width: 100%;
+    }
+    padding: 0;
+    background-color: transparent;
+  }
+}
