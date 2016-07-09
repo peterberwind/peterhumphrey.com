@@ -3,6 +3,10 @@
   display: inline-block;
   width: 100%;
   overflow: hidden;
+
+  a {
+    border-bottom: 4px solid black;
+  }
 }
 
 .images-wrap {
@@ -34,8 +38,8 @@
   height: auto;
   width: auto;
   margin-bottom: -15px;
-  display: flex;
   justify-content: center;
+  max-width: 65%;
   img {
     &:first-of-type {
       position: relative;

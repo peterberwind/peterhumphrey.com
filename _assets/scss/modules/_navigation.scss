@@ -1,5 +1,5 @@
 #navbar {
-  padding-left: 10px;
+  padding: 0 30px;
   text-align: left;
   position: fixed;
   top: 0;
@@ -10,7 +10,10 @@
   z-index: 999;
   font-family: 'Fort';
   transition: transform .5s;
+  border-bottom: 1px solid black;
   box-shadow: 0px 1px 8px 1px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
 }
 
 .navlink {

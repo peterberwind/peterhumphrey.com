@@ -7,10 +7,11 @@
   animation-iteration-count: 1;
   transform: translate(200%, -200%);
   width: 30vmax;
+  z-index: 2;
 }
 
 #title {
   display: inline;
   z-index: 3;
-  animation: titleFadeUp 2s 1;
+  animation: titleFadeUp 3s 1;
 }
