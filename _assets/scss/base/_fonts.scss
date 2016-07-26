@@ -2,21 +2,45 @@
 // @import url(https://fonts.googleapis.com/css?family=Raleway);
 
 @font-face {
-  font-family: "Fort";
-  src: url("../fonts/Fort-Book.ttf");
-  font-weight: normal; }
+    font-family: 'Fort';
+    src: url('../fonts/FortBook.eot');
+    src: url('../fonts/FortBook.eot') format('embedded-opentype'),
+         url('../fonts/FortBook.woff2') format('woff2'),
+         url('../fonts/FortBook.woff') format('woff'),
+         url('../fonts/FortBook.ttf') format('truetype'),
+         url('../fonts/FortBook.svg#FortBook') format('svg');
+         font-weight: normal;
+}
 
 @font-face {
-  font-family: "Fort";
-  src: url("../fonts/Fort-Bold.otf");
-  font-weight: 500; }
+    font-family: 'Fort';
+    src: url('../fonts/FortBold.eot');
+    src: url('../fonts/FortBold.eot') format('embedded-opentype'),
+         url('../fonts/FortBold.woff2') format('woff2'),
+         url('../fonts/FortBold.woff') format('woff'),
+         url('../fonts/FortBold.ttf') format('truetype'),
+         url('../fonts/FortBold.svg#FortBold') format('svg');
+         font-weight: 500;
+}
 
 @font-face {
-  font-family: "Freight";
-  src: url("../fonts/FreightTextPro-Book.otf");
-  font-weight: normal; }
+    font-family: 'Freight';
+    src: url('../fonts/FreightTextProBook.eot');
+    src: url('../fonts/FreightTextProBook.eot') format('embedded-opentype'),
+         url('../fonts/FreightTextProBook.woff2') format('woff2'),
+         url('../fonts/FreightTextProBook.woff') format('woff'),
+         url('../fonts/FreightTextProBook.ttf') format('truetype'),
+         url('../fonts/FreightTextProBook.svg#FreightTextProBook') format('svg');
+         font-weight: normal;
+}
 
 @font-face {
-  font-family: "Freight";
-  src: url("../fonts/FreightTextPro-Bold.otf");
-  font-weight: 500; }
+    font-family: 'FreightTextProBold';
+    src: url('../fonts/FreightTextProBold.eot');
+    src: url('../fonts/FreightTextProBold.eot') format('embedded-opentype'),
+         url('../fonts/FreightTextProBold.woff2') format('woff2'),
+         url('../fonts/FreightTextProBold.woff') format('woff'),
+         url('../fonts/FreightTextProBold.ttf') format('truetype'),
+         url('../fonts/FreightTextProBold.svg#FreightTextProBold') format('svg');
+         font-weight: 500;
+}
