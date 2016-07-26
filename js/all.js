@@ -36,9 +36,6 @@ if (isMobile) {
 
 console.log('Hello ☺');
 
-$("#title").removeClass("hide");
-$("#simplehumandiv").hide();
-
 $(window).scroll(function(e) {
 	var newScrollTop = $(document).scrollTop();
 	if (newScrollTop > scrollTop) {
@@ -62,61 +59,6 @@ $('.navlink2').click(function(e){
 	$('html, body').animate({
 		scrollTop: $(thisman.find('a').data('scroll')).offset().top - 50
 	}, 1000);
-});
-
-$('.writing').click(function(e){
-	e.preventDefault;
-	// var thisman = $(this);
-	$('html, body').animate({
-		scrollTop: $('p:contains("I recently published an interactive")').parent().offset().top - 50
-	}, 1000);
-});
-
-$('.contactcontact').click(function(e){
-	e.preventDefault;
-	// var thisman = $(this);
-	$('html, body').animate({
-		scrollTop: $('body').height()
-	}, 1000);
-});
-
-$('.extra').click(function(e){
-	e.preventDefault;
-	// var thisman = $(this);
-	$('html, body').animate({
-		scrollTop: $('p:contains("and on the advisory board")').parent().offset().top - 50
-	}, 1000);
-});
-
-
-// links = $("a")
-
-// for (var i = 0; i < links.length; i++) {
-// 	$link = $(links[i]);
-// 	var color = $link.closest(".indexText").attr("data-color");
-// 	if (color) {
-// 		$link.addClass("hasColor");
-// 		$link.attr("data-color", color);
-// 	}
-// }
-
-// $(".hasColor").hover(function(e) {
-// 	var color = $(this).attr("data-color");
-// 	$(this).css("color", color);
-// 	$(this).css("border-color", color);
-// }, function(e) {
-// 	$(this).css("color", "black");
-// 	$(this).css("border-color", "black");
-// });
-
-$("#simplehuman").hover(function(e) {
-	$("#simplehumandiv").show();
-	$('#simplehumandiv').css('z-index', '999');
-	$(this).css('z-index', '1000');
-}, function(e) {
-	$("#simplehumandiv").hide();
-	$('#simplehumandiv').css('z-index', '-10');
-	$(this).css('z-index', '0');
 });
 
 (function ($, window, undefined) {
