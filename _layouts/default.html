@@ -19,25 +19,18 @@ modern design and development agency  ¯\_(ツ)_/¯
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>{{ page.title }}</title>
-  <meta name="description" content="{{ page.description }}">
   <meta name="viewport" content="width=device-width">
+
+  <!-- SEO -->
+  {% seo %}
+
+  <!-- Icons -->
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <!-- Open Graph Tags -->
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="{{ page.title }}">
-  <meta property="og:description" content="{{ page.description }}">
-
-  <!-- Twitter Card Tags -->
-  <meta name="twitter:title" content="{{ page.title }}">
-  <meta name="twitter:description" content="{{ page.description }}">
-
-  <!-- Custom CSS -->
+  <!-- Styles -->
   <link rel="stylesheet" href="{{ site.github.url }}/css/main.css">
 
-  <!-- TO-DO: Add Modernizr -->
 
 </head>
 
