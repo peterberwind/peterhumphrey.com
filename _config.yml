@@ -1,5 +1,5 @@
 name: NO2 Jekyell StarterKit
 markdown: redcarpet
-highlighter: pygments # or rouge or null
+highlighter: rouge # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
 keep_files: ["fonts", "js", "css"]
